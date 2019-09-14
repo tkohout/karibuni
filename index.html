@@ -1,73 +1,923 @@
-
-<!doctype html>
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://uicookies.com/demo/theme/instant/ -->
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Karibuni - Sabores del Mundo">
-
-    <title>Karibuni</title>
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
+    <title>Karibuni - Restaurante en Valencia</title>
+    <meta name="description" content="Sabores del mundo">
+    <meta name="keywords"
+          content="restaurant valencia">
+    <link href="./index_files/css(1)" rel="stylesheet">
+    <link rel="stylesheet" href="./index_files/bootstrap.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="./index_files/magnific-popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link rel="stylesheet" href="./index_files/slick.css">
+    <link rel="stylesheet" href="./index_files/helpers.css">
+    <link rel="stylesheet" href="./index_files/style.css">
+    <link rel="stylesheet" href="./index_files/restaurant.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143238325-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-143238325-1');
-    </script>
+    <!--    <script type="text/javascript" charset="UTF-8" src="./index_files/common.js"></script>-->
+    <!--    <script type="text/javascript" charset="UTF-8" src="./index_files/util.js"></script>-->
+    <!--    <script type="text/javascript" charset="UTF-8" src="./index_files/map.js"></script>-->
+    <!--    <script type="text/javascript" charset="UTF-8" src="./index_files/onion.js"></script>-->
+    <!--    <script type="text/javascript" charset="UTF-8" src="./index_files/stats.js"></script>-->
+    <!--    <script type="text/javascript" charset="UTF-8" src="./index_files/controls.js"></script>-->
+    <!--    <script type="text/javascript" charset="UTF-8" src="./index_files/marker.js"></script>-->
 </head>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+<div class="probootstrap-loader"></div>
 
-<body class="text-center">
+<nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
+    <div class="container">
+        <a class="navbar-brand d-xl-none d-lg-none d-md-block d-sm-block" href="#">
+            <img src="./crown.png" alt="Instant Logo" class="top-logo">
+            <!--            <img src="./index_files/logo-dark.png" alt="Instant Logo" class="dark">-->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar"
+                aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="ion-navicon"></i></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="probootstrap-navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-uppercase pb_letter-spacing-2 active"
+                                        href="#section-home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase pb_letter-spacing-2"
+                                        href="#section-about">¿Quiénes somos?</a></li>
+                <li class="nav-item logo-center d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                    <a class="nav-link text-uppercase pb_letter-spacing-2"
+                       href="index.html">
+                        <img src="./crown.png" class="top-logo" alt="Instant Logo">
+                    </a>
+                </li>
+                <li class="nav-item"><a class="nav-link text-uppercase pb_letter-spacing-2"
+                                        href="#section-menu">Menú</a></li>
 
-<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-    <header class="masthead mb-auto">
+                <li class="nav-item"><a class="nav-link text-uppercase pb_letter-spacing-2"
+                                        href="#section-gallery">Galería</a>
+                </li>
 
-    </header>
+                <li class="nav-item"><a class="nav-link text-uppercase pb_letter-spacing-2"
+                                        href="#section-contact">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-    <main role="main" class="inner cover">
-        <img style="margin-bottom:60px" src="img/logo.jpg" width="250"/>
-
-        <p>Estámos abiertos! Nuevo sitio web está llegando</p>
-    </main>
-
-    <footer class="mastfoot mt-auto">
-        <div class="inner">
-            <div class="row">
-                <div class="col-lg-3 col-sm-12 mb-2">
-                    <a target="_blank" href="https://goo.gl/maps/u7hUbG5TfJzgrycJ9"><i class="fas fa-map-marker fa-2x mr-1 align-middle"></i> Mapa</a>
+<section class="pb_cover_v1 cover-bg-black cover-bg-opacity-4 text-center"
+         style="background-image: url(background2.jpg)" id="section-home">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-9  order-md-1">
+                <img src="logo.png" class="mb-4 main-logo"/>
+                <div class="sub-heading"><p class="mb-5">Restaurante en Valencia. Prueba todo sabores del mundo</p>
                 </div>
-                <div class="col-lg-3 col-sm-12 mb-2">
-                    <a target="_blank" href="https://www.facebook.com/Karibuni-106878670677853/"><i class="fab fa-facebook-square fa-2x mr-1 align-middle"></i> Karibuni</a>
-                </div>
+                <p><a href="#section-contact" role="button"
+                      class="btn smoothscroll pb_outline-light rounded-0 btn-xl pb_font-13 pb_letter-spacing-2 p-3">Reservar
+                    una mesa</a></p>
+            </div>
+        </div>
+    </div>
+</section>
 
-                <div class="col-lg-3 col-sm-12 mb-2">
-                    <a target="_blank" href="https://www.instagram.com/karibunivlc/"><i class="fab fa-instagram fa-2x mr-1 align-middle"></i> @karibuni</a>
+<section class="pb_section" id="section-about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mb-5">
+                <div class="row">
+                    <div class="col">
+                        <p><img src="./photos/restaurante-01.jpg" alt="Instant Image" class="img-fluid"></p>
+                    </div>
+                    <div class="col">
+                        <p><img src="./photos/restaurante-02.jpg" alt="Instant Image" class="img-fluid"></p>
+                    </div>
                 </div>
+            </div>
+            <div class="col-lg-4 pl-lg-5 pl-lg-0">
+                <h2 class="mb-4 text-uppercase pb_letter-spacing-2">El Restaurante</h2>
+                <p>En swahili, "Karibu" significa que usted es bienvenido, y a menudo se usa para invitar a la gente a compartir comida. Cada vez que pienso en mi tiempo en África, la palabra Karibu me trae recuerdos de compartir y de la comunidad. </p>
+                <p>Caminando por la calle y haviendo gente amigable local grite "Karibu" para invitarlos a compartir su comida. Karibuni es el plural de esto - todos ustedes son bienvenidos - y esta es el alma de Karibuni Tapas.</p>
+                <p><a href="#section-menu"
+                      class="smoothscroll text-danger text-uppercase">VER NUESTRO MENÚ <i class="ion-arrow-down-c"></i></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
-                <div class="col-lg-3 col-sm-12 mb-2">
-                    <a target="_blank" href="https://wa.me/34603656564"><i class="fab fa-whatsapp-square fa-2x mr-1 align-middle"></i>+34603656564</a>
+<section class="pb_section" id="section-menu">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-10 text-center">
+                <h2 class="mb-4 text-uppercase pb_letter-spacing-2">Menu</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="nav justify-content-center pb_tab_v1">
+                    <li class="nav-item">
+                        <a class="nav-link active p-3" data-toggle="list"
+                           href="#food" role="tab">Comida</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3" data-toggle="list"
+                           href="#desserts" role="tab">Postres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3" data-toggle="list"
+                           href="#drinks" role="tab">Bebidas</a>
+                    </li>
+
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="food" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md">
+                                <ul class="list-unstyled pb_food-menu">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Ceviche Peruano</h3>
+                                                <p class="mb-0">Pescado blanco fresco marinado en limon con pimientos
+                                                    habaneros,cebolla roja y cilantro. Acompañado con patata y calabaza
+                                                    moscada</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>13</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Tagine de Túnez</h3>
+                                            </div>
+                                            <div class="col-10">
+
+                                                <p class="mb-0">Cordero cocinado a fuego lento en una rica salsa con
+                                                    albaricoques,garbanzos y verduras</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>12</span></div>
+
+                                            <div class="col-10 mt-2">
+                                                <p class="mb-0">Las verduras y el guiso de garbanzos con
+                                                    berenjena,calabacin y pimientos (<i
+                                                            class="fas fa-leaf mr-1 text-success"></i>vegano)</p>
+                                            </div>
+                                            <div class="col-2 mt-2"><span class="price"><sup>€</sup>8</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Pollo Hungaro Paprika</h3>
+                                                <p class="mb-0">Pollo y pimientos rojos en una cremosa salsa de paprika
+                                                    y tomate</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>10</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Katsu Curry Japonés</h3>
+                                            </div>
+                                            <div class="col-12">
+                                                <p class="mb-0">Curry tradicional japones con zanahoria y cebolla
+                                                    acompañada con lechuga. Puedes escoger entre:</p>
+                                            </div>
+
+                                            <div class="col-10">
+                                                <p class="mb-0">Pollo Empanado</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>10</span></div>
+
+                                            <div class="col-10 mt-2">
+                                                <p class="mb-0">Berenjena, calabacín i calabaza frita (<i
+                                                        class="fas fa-leaf mr-1 text-success"></i>vegano)</p>
+                                            </div>
+                                            <div class="col-2 mt-2"><span class="price"><sup>€</sup>8</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Queso Checo Frito</h3>
+                                                <p class="mb-0">Queso frito empanado acompañado de salsa tártara casera
+                                                    (<i class="fas fa-leaf mr-1 text-success"></i>vegetariano)</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>6</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Kebabs Persas</h3>
+                                                <p class="mb-0">Carne picada de ternera y cordero sazonado servido en
+                                                    pinchos, acompañado con una ensalada de pepino tomate y cebolla</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>9</span></div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md">
+                                <ul class="list-unstyled pb_food-menu">
+
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Moqueca Brasileña</h3>
+                                                <p class="mb-0">Pescado blanco y gambas en una cremosa salsa de coco y
+                                                    paprika con un toque de chile</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>15</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Filete Troceado Argentino</h3>
+                                                <p class="mb-0">Tiras de filete argentino acompañado con la famosa salsa
+                                                    argentina chimichurri</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>10</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Arancini Italianas</h3>
+                                                <p class="mb-0">Bolas de risotto con arroz arborio fritas rellenas con
+                                                    queso mozarella y acompañado con una salsa de tomate picante (<i
+                                                            class="fas fa-leaf mr-1 text-success"></i>vegetariano)</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>10</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Larb Tailandés</h3>
+                                                <p class="mb-0">Carne picada de cerdo, cebolla cruda y crujiente arroz
+                                                    tostado vestido de menta fresca y cilantro</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>8</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Jiaozi Chino</h3>
+                                            </div>
+                                            <div class="col-12">
+                                                <p class="mb-0">Empanadillas con salsa de soja rellenas de:</p>
+                                            </div>
+
+                                            <div class="col-10">
+                                                <p class="mb-0">Cerdo y hojas de cebollino</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>5</span></div>
+
+                                            <div class="col-10 mt-2">
+                                                <p class="mb-0">Verduras, champiñones y brotes de bambú (<i
+                                                        class="fas fa-leaf mr-1 text-success"></i>vegano)</p>
+                                            </div>
+                                            <div class="col-2 mt-2"><span class="price"><sup>€</sup>4</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Acompañantes</h3>
+                                            </div>
+                                            <div class="col-10">
+                                                <p class="mb-0">Patatas bravas</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>5</span></div>
+
+                                            <div class="col-10">
+
+                                                <p class="mb-0">Patatas fritas</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>3</span></div>
+
+                                            <div class="col-10">
+
+                                                <p class="mb-0">Arroz blanco</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>3</span></div>
+
+                                            <div class="col-10">
+
+                                                <p class="mb-0">Cous cous aromático</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>4</span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade show" id="desserts" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md">
+                                <ul class="list-unstyled pb_food-menu">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Pudín Inglés De Caramelo
+                                                    Pegajoso</h3>
+                                                <p class="mb-0">Indulgente y delicioso pudding servido caliente con
+                                                    salsa de caramelo y helado de vainilla</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>7</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Tarta De Crema Portuguesa</h3>
+                                                <p class="mb-0">Pastel tradicional portugués relleno de crema
+                                                    pastelera</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>6</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Banana Akaras De Sierra
+                                                    Leona</h3>
+                                                <p class="mb-0">Banana rosquilla pegajosa hecha con harina de arroz y
+                                                    espolvoreada con azúcar y canela</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>5</span></div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md">
+                                <ul class="list-unstyled pb_food-menu">
+
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Brigadero Brasileño</h3>
+                                                <p class="mb-0">3 deliciosas y dulces bolas de chocolate de Brazil -
+                                                    perfecto con un café</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>5</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Tequeños Venezolanos</h3>
+                                                <p class="mb-0">Pasteles fritos rellenos de Nutella, servidos con
+                                                    helado</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>6</span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-pane fade" id="drinks" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md">
+                                <ul class="list-unstyled pb_food-menu">
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <h3 class="pb_font-18 font-weight-bold">Vodka</h3>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>Simple</sup></span></div>
+                                            <div class="col-2"><span class="price"><sup>Doble</sup></span></div>
+
+                                            <div class="col-8"><p class="mb-0">Finlandia</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,60</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>5,00</span></div>
+                                            <div class="col-8"><p class="mb-0">Absolut</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,30</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>4,50</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Ron Oscuro</h3>
+                                            </div>
+                                            <div class="col-8"><p class="mb-0">Negrita</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>1,60</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>3,00</span></div>
+                                            <div class="col-8"><p class="mb-0">Flor de Caña</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,60</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>5,00</span></div>
+                                            <div class="col-8"><p class="mb-0">Cacique</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,60</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>5,00</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Ron Blanco</h3>
+                                            </div>
+                                            <div class="col-8"><p class="mb-0">Negrita blanco</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>1,50</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,80</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Tequila</h3>
+                                            </div>
+                                            <div class="col-8"><p class="mb-0">Jimador Oro</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>3,60</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>7,00</span></div>
+                                            <div class="col-8"><p class="mb-0">Jose Cuervo</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,60</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>5,00</span></div>
+                                            <div class="col-8"><p class="mb-0">Blanco videl</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>1,50</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,60</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Ginebra</h3>
+                                            </div>
+                                            <div class="col-8"><p class="mb-0">Larios</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>1,50</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,80</span></div>
+                                            <div class="col-8"><p class="mb-0">Seagram´s</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,80</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>5,50</span></div>
+                                            <div class="col-8"><p class="mb-0">Bombay Saphire</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>3,60</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>7,00</span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md">
+                                <ul class="list-unstyled pb_food-menu">
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <h3 class="pb_font-18 font-weight-bold">Cachaça</h3>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>Simple</sup></span></div>
+                                            <div class="col-2"><span class="price"><sup>Doble</sup></span></div>
+                                            <div class="col-8"><p class="mb-0">Cachaça 51</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,50</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>4,80</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Whisky</h3>
+                                            </div>
+                                            <div class="col-8"><p class="mb-0">Famous Grouse</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,50</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>4,80</span></div>
+                                            <div class="col-8"><p class="mb-0">Johnny Walker Red </p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,20</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>4,00</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Brandy</h3>
+                                            </div>
+                                            <div class="col-8"><p class="mb-0">Terry</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>1,80</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>3,30</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Triple Sec</h3>
+                                            </div>
+                                            <div class="col-8"><p class="mb-0">Triple Navel</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>1,50</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,60</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Crema</h3>
+                                            </div>
+                                            <div class="col-8"><p class="mb-0">Barcelo Cream</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,20</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>4,00</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Aperitif</h3>
+                                            </div>
+                                            <div class="col-8"><p class="mb-0">Martini Blanco</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>1,60</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>3,00</span></div>
+                                            <div class="col-8"><p class="mb-0">Martini Roso</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>1,60</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>3,00</span></div>
+                                            <div class="col-8"><p class="mb-0">Orujo Hiervas</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>1,50</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>2,80</span></div>
+                                            <div class="col-8"><p class="mb-0">Pacharan Ruavieja</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>1,80</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>3,30</span></div>
+
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb_md_py_cover text-center cover-bg-black cover-bg-opacity-4"
+         style="background-image: url(photos/scroll-bg-01.jpg)" id="section-home">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-9  order-md-1">
+                <h2 class="heading mb-3">Sabores del mundo</h2>
+                <p class="sub-heading">Estuve de mochilera por todo el mundo durante casi 7 años, en 6 de los 7 continentes. Durante este tiempo conocí a personas y culturas que nunca había conocido en Inglaterra, y también me enamoré de la comida que comí en mi viaje.
+                    Aprendí a cocinar los platos como se hacen tradicionalmente y ahora he traido estas recetas a Valencia para compartir la comida que amo en el restaurante.
+                </p>
+
+                <div class="float-right sub-heading">- Abby Payne, Cocinera</div>
 
             </div>
         </div>
-    </footer>
+    </div>
+</section>
+
+<section class="pb_section" id="section-gallery">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-10 text-center">
+                <h2 class="mb-4 text-uppercase pb_letter-spacing-2">Galería</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card-columns">
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/00.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/00.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/01.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/01.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/02.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/02.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/03.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/03.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/04.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/04.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/05.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/05.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/06.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/06.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/07.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/07.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/08.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/08.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/09.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/09.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/10.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/10.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/11.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/11.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/12.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/12.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <a href="./photos/13.jpg" class="pb_hover-zoom image-popup">
+                            <img class="img-fluid" src="./photos/13.jpg" >
+                            <i class="ion-ios-search-strong icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<section class="pb_section cover-bg-cyan cover-bg-opacity-3">-->
+<!--    <div class="container">-->
+<!--        <div class="row justify-content-center mb-5">-->
+<!--            <div class="col-md-10 text-center">-->
+<!--                <h2 class="mb-4 text-uppercase pb_letter-spacing-2">Qué dice la gente de nosotros</h2>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md">-->
+<!--                <div class="media d-block text-center testimonial_v1 pb_quote_v1">-->
+<!--                    <div class="media-body">-->
+<!--                        <div class="quote pb_text-black">“</div>-->
+<!--                        <blockquote class="mb-5 pb_font-20">Far far away, behind the word mountains, far from the-->
+<!--                            countries Vokalia and Consonantia, there live the blind texts. Separated they live in-->
+<!--                            Bookmarksgrove right at the coast of the Semantics, a large language ocean.-->
+<!--                        </blockquote>-->
+<!--                        <img class="d-flex text-center mx-auto mb-3 rounded-circle" src="./index_files/person_1.jpg"-->
+<!--                             >-->
+<!--                        <h3 class="heading">Garry Alexander</h3>-->
+<!--                        <p class="subheading">@garry</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md">-->
+<!--                <div class="media d-block text-center testimonial_v1 pb_quote_v1">-->
+<!--                    <div class="media-body">-->
+<!--                        <div class="quote pb_text-black">“</div>-->
+<!--                        <blockquote class="mb-5 pb_font-20">A small river named Duden flows by their place and supplies-->
+<!--                            it with the necessary regelialia. It is a paradisematic country, in which roasted parts of-->
+<!--                            sentences fly into your mouth.-->
+<!--                        </blockquote>-->
+<!--                        <img class="d-flex text-center mx-auto mb-3 rounded-circle" src="./index_files/person_5.jpg"-->
+<!--                             >-->
+<!--                        <h3 class="heading">Deborah Smith</h3>-->
+<!--                        <p class="subheading">@deborah</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md">-->
+<!--                <div class="media d-block text-center testimonial_v1 pb_quote_v1">-->
+<!--                    <div class="media-body">-->
+<!--                        <div class="quote pb_text-black">“</div>-->
+<!--                        <blockquote class="mb-5 pb_font-20">Even the all-powerful Pointing has no control about the-->
+<!--                            blind texts it is an almost unorthographic life One day however a small line of blind text-->
+<!--                            by the name of Lorem Ipsum decided to leave for the far World of Grammar.-->
+<!--                        </blockquote>-->
+<!--                        <img class="d-flex text-center mx-auto mb-3 rounded-circle" src="./index_files/person_2.jpg"-->
+<!--                             >-->
+<!--                        <h3 class="heading">James Robertson</h3>-->
+<!--                        <p class="subheading">@james</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!--<section class="pb_md_py_cover text-center cover-bg-black cover-bg-opacity-4"-->
+<!--         style="background-image: url(photos/scroll-bg-02.jpg)" id="section-home">-->
+<!--    <div class="container">-->
+<!--        <div class="row align-items-center justify-content-center">-->
+<!--            <div class="col-md-9  order-md-1">-->
+<!--                <h2 class="heading mb-3">Good Food, Good Taste</h2>-->
+<!--                <p class="sub-heading">Far far away, behind the word mountains, far from the countries Vokalia and-->
+<!--                    Consonantia, there live the blind texts.</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!--<section class="pb_section bg-light" id="section-events">-->
+<!--    <div class="container">-->
+<!--        <div class="row justify-content-center mb-5">-->
+<!--            <div class="col-md-10 text-center">-->
+<!--                <h2 class="mb-4 text-uppercase pb_letter-spacing-2">Events</h2>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="card-deck">-->
+<!--                <div class="card border-0">-->
+<!--                    <img class="card-img-top" src="./index_files/img_1(1).jpg" >-->
+<!--                    <div class="card-body pb_p-40">-->
+<!--                        <small class="text-uppercase pb_color-dark-opacity-3 font-weight-bold">December 2nd, 2017-->
+<!--                        </small>-->
+<!--                        <h4 class="card-title"><a href="#" class="text-danger">Thanksgiving-->
+<!--                            and Reflections</a></h4>-->
+<!--                        <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and-->
+<!--                            Consonantia, there live the blind texts. .</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="card border-0">-->
+<!--                    <img class="card-img-top" src="./index_files/img_1(1).jpg" >-->
+<!--                    <div class="card-body pb_p-40">-->
+<!--                        <small class="text-uppercase pb_color-dark-opacity-3 font-weight-bold">December 10th, 2017-->
+<!--                        </small>-->
+<!--                        <h4 class="card-title"><a href="#" class="text-danger">Maker-->
+<!--                            of Monday</a></h4>-->
+<!--                        <p class="card-text">Separated they live in Bookmarksgrove right at the coast of the Semantics,-->
+<!--                            a large language ocean.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="card border-0">-->
+<!--                    <img class="card-img-top" src="./index_files/img_1(1).jpg" >-->
+<!--                    <div class="card-body pb_p-40">-->
+<!--                        <small class="text-uppercase pb_color-dark-opacity-3 font-weight-bold">December 23rd, 2017-->
+<!--                        </small>-->
+<!--                        <h4 class="card-title"><a href="#" class="text-danger">Family-->
+<!--                            and Kids Promo</a></h4>-->
+<!--                        <p class="card-text">It is a paradisematic country, in which roasted parts of sentences fly into-->
+<!--                            your mouth.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<section class="pb_section pt-0 pb-0" id="section-contact">
+    <div class="d-flex">
+        <div class="pb_half py-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-10 text-center">
+                    <h2 class="mb-4 text-uppercase pb_letter-spacing-2">Contacto</h2>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-7">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="pb_font-18 font-weight-bold">Dirección</h3>
+                            </div>
+                            <div class="col-12">
+                                <span>Avinguda Regne de Valencia, 46005 València, Spain</span>
+                            </div>
+
+                            <div class="col-12 mt-4">
+                                <h3 class="pb_font-18 font-weight-bold">Telefóno</h3>
+                            </div>
+                            <div class="col-12">
+                                <span><a href="https://wa.me/34603656564" target="_blank"><i class="fab fa-whatsapp mr-2"></i>+34603656564</a></span>
+                            </div>
+
+                            <div class="col-12 mt-4">
+                                <h3 class="pb_font-18 font-weight-bold">Email</h3>
+                            </div>
+                            <div class="col-12">
+                                <span><a href="mailto:reserva@karibuni.es">reserva@karibuni.es</a></span>
+                            </div>
+
+                            <div class="col-12  mt-4">
+                                <h3 class="pb_font-18 font-weight-bold">Redes sociales</h3>
+                            </div>
+                            <div class="col-12">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"
+                                    ><a href="https://www.facebook.com/karibunivlc/" target="_blank" class="p-2"><i
+                                            class="fab fa-facebook mr-2"></i><small>karibunivlc</small></a></li>
+                                    <li class="list-inline-item"><a href="https://www.instagram.com/karibunivalencia/" target="_blank" class="p-2"><i
+                                            class="fab fa-instagram mr-2"></i><small>karibunivalencia</small></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="pb_half" id="map" style="position: relative; overflow: hidden;">
+            <script>
+                mapboxgl.accessToken = 'pk.eyJ1Ijoia2FyaWJ1bmkiLCJhIjoiY2swaW5mNHluMDFvZjNnbGlsb2R3Z3dseSJ9.ZFWutLs52wLx3kiAdrnCnw';
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    center: [-0.370877, 39.464274],
+                    zoom: 15,
+                    style: 'mapbox://styles/mapbox/dark-v10'
+                });
+
+                var marker = new mapboxgl.Marker()
+                    .setLngLat([-0.370877, 39.464274])
+                    .addTo(map);
+            </script>
+        </div>
+    </div>
+</section>
+
+<footer class="pb_footer bg-light" role="contentinfo">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <p>© 2017 <a href="https://uicookies.com/wrapbootstrap/instant">Instant</a>. All Rights Reserved.
+                    Designed by <a href="https://uicookies.com/">uiCookies</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="pb_loader" class="fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"></circle>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#FDA04F"></circle>
+    </svg>
 </div>
+<script src="./index_files/jquery.min.js" type="text/javascript"></script>
+<script src="./index_files/popper.min.js" type="text/javascript"></script>
+<script src="./index_files/bootstrap.min.js" type="text/javascript"></script>
+<script src="./index_files/slick.min.js" type="text/javascript"></script>
+<script src="./index_files/jquery.mb.YTPlayer.min.js" type="text/javascript"></script>
+<script src="./index_files/jquery.waypoints.min.js" type="text/javascript"></script>
+<script src="./index_files/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="./index_files/jquery.magnific-popup.min.js" type="text/javascript"></script>
+<script src="./index_files/magnific-popup-options.js" type="text/javascript"></script>
+<script src="./index_files/js" type="text/javascript"></script>
+<script src="./index_files/main.js" type="text/javascript"></script>
 
 </body>
 </html>
