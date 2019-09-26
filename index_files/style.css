@@ -2187,3 +2187,7 @@ a {
         height: 30px;
     }
 }
+
+.language-switch {
+    margin-top: -10px;
+}
