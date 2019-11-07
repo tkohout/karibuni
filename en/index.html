@@ -6,7 +6,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38089709-4"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-38089709-4');
@@ -29,7 +33,7 @@
     <link rel="stylesheet" href="../index_files/style.css">
     <link rel="stylesheet" href="../index_files/restaurant.css">
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet'/>
 
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
@@ -74,7 +78,7 @@
                 </li>
 
                 <li class="nav-item d-block d-lg-none"><a class="nav-link text-uppercase pb_letter-spacing-2"
-                                        href="/">ES</a>
+                                                          href="/">ES</a>
                 </li>
             </ul>
 
@@ -96,7 +100,8 @@
                 <div class="sub-heading"><p class="mb-5">Restaurant in Valencia. All flavours of the world</p>
                 </div>
                 <p><a href="#section-contact" role="button"
-                      class="btn smoothscroll pb_outline-light rounded-0 btn-xl pb_font-13 pb_letter-spacing-2 p-3">Reserve a table</a></p>
+                      class="btn smoothscroll pb_outline-light rounded-0 btn-xl pb_font-13 pb_letter-spacing-2 p-3">Reserve
+                    a table</a></p>
             </div>
         </div>
     </div>
@@ -117,8 +122,12 @@
             </div>
             <div class="col-lg-4 pl-lg-5 pl-lg-0">
                 <h2 class="mb-4 text-uppercase pb_letter-spacing-2">Restaurant</h2>
-                <p>In Swahili, "Karibu" means you are welcome, and is often used to invite people to share food. Whenever I think of my time in Africa, the word Karibu brings back memories of sharing and community. </p>
-                <p>Walking down the street and having friendly locals calling out "Karibu" to invite the sharing of their meal. Karibuni is the plural of this - you are all welcome - and this is the soul of Karibuni Tapas.</p>
+                <p>In Swahili, "Karibu" means you are welcome, and is often used to invite people to share food.
+                    Whenever I think of my time in Africa, the word Karibu brings back memories of sharing and
+                    community. </p>
+                <p>Walking down the street and having friendly locals calling out "Karibu" to invite the sharing of
+                    their meal. Karibuni is the plural of this - you are all welcome - and this is the soul of Karibuni
+                    Tapas.</p>
                 <p><a href="#section-menu"
                       class="smoothscroll text-danger text-uppercase">SEE OUR MENU <i class="ion-arrow-down-c"></i></a>
                 </p>
@@ -139,6 +148,10 @@
                 <ul class="nav justify-content-center pb_tab_v1">
                     <li class="nav-item">
                         <a class="nav-link active p-3" data-toggle="list"
+                           href="#tapas" role="tab">Tapas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3" data-toggle="list"
                            href="#food" role="tab">Food</a>
                     </li>
                     <li class="nav-item">
@@ -153,88 +166,85 @@
                 </ul>
 
                 <div class="tab-content">
-                    <div class="tab-pane fade show active" id="food" role="tabpanel">
+                    <div class="tab-pane fade show active" id="tapas" role="tabpanel">
                         <div class="row">
                             <div class="col-md">
                                 <ul class="list-unstyled pb_food-menu">
                                     <li>
                                         <div class="row">
-                                            <div class="col-10">
-                                                <h3 class="pb_font-18 font-weight-bold">Peruvian Ceviche</h3>
-                                                <p class="mb-0">Fresh white fish marinated in lime juice, with habanero peppers, red onion and cilantro. Served with potato and sweet butternut squash</p>
-                                            </div>
-                                            <div class="col-2"><span class="price"><sup>€</sup>13</span></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h3 class="pb_font-18 font-weight-bold">Tunisian Tagine</h3>
-                                            </div>
-                                            <div class="col-10">
-
-                                                <p class="mb-0">Lamb slow cooked in a rich sauce with apricots, chickpeas and vegetables</p>
-                                            </div>
-                                            <div class="col-2"><span class="price"><sup>€</sup>12</span></div>
-
-                                            <div class="col-10 mt-2">
-                                                <p class="mb-0">Vegetable and chickpea stew, with eggplant, zucchini and bell peppers (<i
-                                                            class="fas fa-leaf mr-1 text-success"></i>vegan)</p>
-                                            </div>
-                                            <div class="col-2 mt-2"><span class="price"><sup>€</sup>8</span></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="row">
-                                            <div class="col-10">
-                                                <h3 class="pb_font-18 font-weight-bold">Hungarian Chicken Paprikash</h3>
-                                                <p class="mb-0">Chicken and bell peppers in a creamy paprika and tomato sauce </p>
-                                            </div>
-                                            <div class="col-2"><span class="price"><sup>€</sup>10</span></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h3 class="pb_font-18 font-weight-bold">Japanese Katsu Curry</h3>
-                                            </div>
-                                            <div class="col-12">
-                                                <p class="mb-0">Traditional mild curry from Japan with carrot and onion, served with lettuce and pickles. Choose from:</p>
-                                            </div>
-
-                                            <div class="col-10">
-                                                <p class="mb-0">Fried breaded chicken</p>
-                                            </div>
-                                            <div class="col-2"><span class="price"><sup>€</sup>10</span></div>
-
-                                            <div class="col-10 mt-2">
-                                                <p class="mb-0">Fried eggplant, zucchini and butternut squash (<i
-                                                        class="fas fa-leaf mr-1 text-success"></i>vegan)</p>
-                                            </div>
-                                            <div class="col-2 mt-2"><span class="price"><sup>€</sup>8</span></div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="row">
-                                            <div class="col-10">
-                                                <h3 class="pb_font-18 font-weight-bold">Czech Deep Fried Cheese</h3>
-                                                <p class="mb-0">Breaded and fried cheese with homemade tartar sauce
-                                                    (<i class="fas fa-leaf mr-1 text-success"></i>vegetarian)</p>
-                                            </div>
+                                            <div class="col-10"><h3 class="pb_font-18 font-weight-bold">Czech Deep Fried
+                                                Cheese </h3>
+                                                <p class="mb-0">Breaded and fried cheese with homemade tartar sauce (<i
+                                                        class="fas fa-leaf mr-1 text-success"></i>Vegetarian)</p></div>
                                             <div class="col-2"><span class="price"><sup>€</sup>6</span></div>
                                         </div>
                                     </li>
-
                                     <li>
                                         <div class="row">
-                                            <div class="col-10">
-                                                <h3 class="pb_font-18 font-weight-bold">Persian Kebabs</h3>
-                                                <p class="mb-0">Minced beef and lamb seasoned and served on skewers, with a cucumber, tomato and onion salad</p>
-                                            </div>
+                                            <div class="col-10"><h3 class="pb_font-18 font-weight-bold">Persian
+                                                Kebabs </h3>
+                                                <p class="mb-0">Minced beef and lamb seasoned and served on skewers,
+                                                    with a cucumber, tomato and onion salad</p></div>
                                             <div class="col-2"><span class="price"><sup>€</sup>9</span></div>
                                         </div>
                                     </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10"><h3 class="pb_font-18 font-weight-bold">Italian
+                                                Arancini </h3>
+                                                <p class="mb-0">Deep fried balls of risotto made with arborio rice,
+                                                    filled with mozarella cheese and served with a spicy tomato dipping
+                                                    sauce (<i class="fas fa-leaf mr-1 text-success"></i>Vegetarian)
+                                                </p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>10</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10"><h3 class="pb_font-18 font-weight-bold">Japanese
+                                                Gyoza </h3>
+                                                <p class="mb-0">Dumplings served with soy sauce, filled with vegetables,
+                                                    mushrooms and bamboo shoots (<i
+                                                            class="fas fa-leaf mr-1 text-success"></i>Vegan)</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>5</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10"><h3 class="pb_font-18 font-weight-bold">Grilled Cajun
+                                                Prawns </h3>
+                                                <p class="mb-0">Seasoned prawns served on a bed of cheesy sweet potato
+                                                    mash with peppers, corn and spring onion</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>7</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">French Crostini</h3>
+                                            </div>
+                                            <div class="col-12">
+                                                <p class="mb-0">3 pieces of toasted bread topped with:</p>
+                                            </div>
+
+                                            <div class="col-10">
+                                                <p class="mb-0">Mushroom and bacon in a creamy sauce</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>4,50</span></div>
+
+                                            <div class="col-10 mt-2">
+                                                <p class="mb-0">Caramelized onions and melted emmental cheese (<i
+                                                        class="fas fa-leaf mr-1 text-success"></i>vegetarian)</p>
+                                            </div>
+                                            <div class="col-2 mt-2"><span class="price"><sup>€</sup>4</span></div>
+                                            <div class="col-10 mt-2">
+                                                <p class="mb-0">Marinated mixed beans (<i
+                                                        class="fas fa-leaf mr-1 text-success"></i>vegan)</p>
+                                            </div>
+                                            <div class="col-2 mt-2"><span class="price"><sup>€</sup>3,50</span></div>
+                                        </div>
+                                    </li>
+
 
                                 </ul>
                             </div>
@@ -244,75 +254,57 @@
 
                                     <li>
                                         <div class="row">
-                                            <div class="col-10">
-                                                <h3 class="pb_font-18 font-weight-bold">Brazilian Moqueca</h3>
-                                                <p class="mb-0">White fish and prawns in a creamy coconut and paprika sauce with a hint of chilie</p>
-                                            </div>
-                                            <div class="col-2"><span class="price"><sup>€</sup>15</span></div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="row">
-                                            <div class="col-10">
-                                                <h3 class="pb_font-18 font-weight-bold">Argentinian Steak Strips</h3>
-                                                <p class="mb-0">Strips of steak served with the famous Argentinean chimichurri salsa</p>
-                                            </div>
-                                            <div class="col-2"><span class="price"><sup>€</sup>10</span></div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="row">
-                                            <div class="col-10">
-                                                <h3 class="pb_font-18 font-weight-bold">Italian Arancini</h3>
-                                                <p class="mb-0">Deep fried balls of risotto made with arborio rice, filled with mozarella cheese and served with a spicy tomato dipping sauce (<i
-                                                            class="fas fa-leaf mr-1 text-success"></i>vegetarian)</p>
-                                            </div>
-                                            <div class="col-2"><span class="price"><sup>€</sup>10</span></div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="row">
-                                            <div class="col-10">
-                                                <h3 class="pb_font-18 font-weight-bold">Thai Larb</h3>
-                                                <p class="mb-0">Minced pork, raw onion and crunchy toasted rice, dressed with fresh mint and cilantro</p>
-                                            </div>
-                                            <div class="col-2"><span class="price"><sup>€</sup>8</span></div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h3 class="pb_font-18 font-weight-bold">Chinese Jiaozi</h3>
-                                            </div>
-                                            <div class="col-12">
-                                                <p class="mb-0">Dumplings served with soy sauce, filled with:</p>
-                                            </div>
-
-                                            <div class="col-10">
-                                                <p class="mb-0">Pork and Chive Leaves</p>
-                                            </div>
+                                            <div class="col-10"><h3 class="pb_font-18 font-weight-bold">Chinese Chicken
+                                                Wings </h3>
+                                                <p class="mb-0">Baked wings marinated in a sticky chinese style sauce</p></div>
                                             <div class="col-2"><span class="price"><sup>€</sup>5</span></div>
-
-                                            <div class="col-10 mt-2">
-                                                <p class="mb-0">Vegetables, mushrooms and bamboo shoots (<i
-                                                        class="fas fa-leaf mr-1 text-success"></i>vegan)</p>
-                                            </div>
-                                            <div class="col-2 mt-2"><span class="price"><sup>€</sup>4</span></div>
                                         </div>
                                     </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10"><h3 class="pb_font-18 font-weight-bold">Peruvian Seafood
+                                                Croquettes </h3>
+                                                <p class="mb-0">Potato croquettes filled with mixed seafood and served
+                                                    with a spicy sauce
+                                                </p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>9</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10"><h3 class="pb_font-18 font-weight-bold">Greek
+                                                Skewers </h3>
+                                                <p class="mb-0">Lemon flavoured artichoke hearts with feta cheese and
+                                                    cured meat</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>6</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10"><h3 class="pb_font-18 font-weight-bold">Thai Fish
+                                                Cakes </h3>
+                                                <p class="mb-0">Spicy fish cakes made with white fish and thai
+                                                    seasoning, fried and served with a cucumber, peanut and sweet chilli
+                                                    dip</p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>9</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10"><h3 class="pb_font-18 font-weight-bold">Spanish Papas
+                                                Bravas </h3>
+                                                <p class="mb-0">Fried potatoes served with a traditional spicy paprika
+                                                    bravas sauce (<i class="fas fa-leaf mr-1 text-success"></i>Vegan)
+                                                </p></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>5</span></div>
+                                        </div>
+                                    </li>
+
                                     <li>
                                         <div class="row">
                                             <div class="col-12">
                                                 <h3 class="pb_font-18 font-weight-bold">Accompaniments</h3>
                                             </div>
-                                            <div class="col-10">
-                                                <p class="mb-0">Patatas bravas</p>
-                                            </div>
-                                            <div class="col-2"><span class="price"><sup>€</sup>5</span></div>
 
                                             <div class="col-10">
 
@@ -338,37 +330,42 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade show" id="desserts" role="tabpanel">
+                    <div class="tab-pane fade show" id="food" role="tabpanel">
                         <div class="row">
                             <div class="col-md">
                                 <ul class="list-unstyled pb_food-menu">
                                     <li>
                                         <div class="row">
-                                            <div class="col-10">
-                                                <h3 class="pb_font-18 font-weight-bold">English Sticky Toffee Pudding</h3>
-                                                <p class="mb-0">Indulgent pudding served warm with a toffee sauce and vanilla ice cream</p>
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Tunisian Tagine</h3>
                                             </div>
-                                            <div class="col-2"><span class="price"><sup>€</sup>7</span></div>
+                                            <div class="col-10">
+
+                                                <p class="mb-0">Lamb slow cooked in a rich sauce with apricots, chickpeas and vegetables</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>12</span></div>
+
                                         </div>
                                     </li>
-
                                     <li>
                                         <div class="row">
-                                            <div class="col-10">
-                                                <h3 class="pb_font-18 font-weight-bold">Portuguese Cream Tart</h3>
-                                                <p class="mb-0">Traditional portuguese pastries with a custard filling</p>
+                                            <div class="col-12">
+                                                <h3 class="pb_font-18 font-weight-bold">Japanese Katsu Curry</h3>
                                             </div>
-                                            <div class="col-2"><span class="price"><sup>€</sup>6</span></div>
-                                        </div>
-                                    </li>
+                                            <div class="col-12">
+                                                <p class="mb-0">Traditional mild curry from Japan with carrot and onion, served with lettuce and pickles. Choose from:</p>
+                                            </div>
 
-                                    <li>
-                                        <div class="row">
                                             <div class="col-10">
-                                                <h3 class="pb_font-18 font-weight-bold">Sierra Leonean Banana Akaras</h3>
-                                                <p class="mb-0">Banana based gooey doughnut made with rice flour dusted with cinnamon sugar</p>
+                                                <p class="mb-0">Fried breaded chicken</p>
                                             </div>
-                                            <div class="col-2"><span class="price"><sup>€</sup>5</span></div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>10</span></div>
+
+                                            <div class="col-10 mt-2">
+                                                <p class="mb-0">Fried eggplant, zucchini and butternut squash (<i
+                                                        class="fas fa-leaf mr-1 text-success"></i>vegan)</p>
+                                            </div>
+                                            <div class="col-2 mt-2"><span class="price"><sup>€</sup>8</span></div>
                                         </div>
                                     </li>
 
@@ -381,8 +378,55 @@
                                     <li>
                                         <div class="row">
                                             <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Argentinian Steak Strips</h3>
+                                                <p class="mb-0">Strips of steak served with the famous Argentinean chimichurri salsa</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>10</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">Thai Larb</h3>
+                                                <p class="mb-0">Minced pork, raw onion and crunchy toasted rice, dressed with fresh mint and cilantro</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>9</span></div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade show" id="desserts" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md">
+                                <ul class="list-unstyled pb_food-menu">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <h3 class="pb_font-18 font-weight-bold">English Sticky Toffee
+                                                    Pudding</h3>
+                                                <p class="mb-0">Indulgent pudding served warm with a toffee sauce and
+                                                    vanilla ice cream</p>
+                                            </div>
+                                            <div class="col-2"><span class="price"><sup>€</sup>7</span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md">
+                                <ul class="list-unstyled pb_food-menu">
+
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
                                                 <h3 class="pb_font-18 font-weight-bold">Brazilian Brigadero</h3>
-                                                <p class="mb-0">3 chocolate candies from Brazil - perfect with a coffee</p>
+                                                <p class="mb-0">3 chocolate candies from Brazil - perfect with a
+                                                    coffee</p>
                                             </div>
                                             <div class="col-2"><span class="price"><sup>€</sup>5</span></div>
                                         </div>
@@ -392,7 +436,8 @@
                                         <div class="row">
                                             <div class="col-10">
                                                 <h3 class="pb_font-18 font-weight-bold">Venezuelan Tequeños</h3>
-                                                <p class="mb-0">Fried pastries filled with Nutella, served with ice cream</p>
+                                                <p class="mb-0">Fried pastries filled with Nutella, served with ice
+                                                    cream</p>
                                             </div>
                                             <div class="col-2"><span class="price"><sup>€</sup>6</span></div>
                                         </div>
@@ -580,7 +625,11 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-md-9  order-md-1">
                 <h2 class="heading mb-3">Flavours of the world</h2>
-                <p class="sub-heading">I was backpacking around the world for almost 7 years, across 6 of the 7 continents. During this time I experienced people and cultures that I had never known of back home in England, and I also fell in love with the food I ate on my journey. I learnt how to cook the dishes how they are made traditionally and have now brought these recipes to Valencia to share the food I love through the restaurant.
+                <p class="sub-heading">I was backpacking around the world for almost 7 years, across 6 of the 7
+                    continents. During this time I experienced people and cultures that I had never known of back home
+                    in England, and I also fell in love with the food I ate on my journey. I learnt how to cook the
+                    dishes how they are made traditionally and have now brought these recipes to Valencia to share the
+                    food I love through the restaurant.
                 </p>
 
                 <div class="float-right sub-heading">- Abby Payne, The Cook</div>
@@ -602,86 +651,86 @@
                 <div class="card-columns">
                     <div class="card border-0 mb-4">
                         <a href="../photos/00.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/00.jpg" >
+                            <img class="img-fluid" src="../photos/00.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
                     <div class="card border-0 mb-4">
                         <a href="../photos/01.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/01.jpg" >
+                            <img class="img-fluid" src="../photos/01.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
                     <div class="card border-0 mb-4">
                         <a href="../photos/02.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/02.jpg" >
+                            <img class="img-fluid" src="../photos/02.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
                     <div class="card border-0 mb-4">
                         <a href="../photos/03.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/03.jpg" >
+                            <img class="img-fluid" src="../photos/03.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
 
                     <div class="card border-0 mb-4">
                         <a href="../photos/04.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/04.jpg" >
+                            <img class="img-fluid" src="../photos/04.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
                     <div class="card border-0 mb-4">
                         <a href="../photos/05.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/05.jpg" >
+                            <img class="img-fluid" src="../photos/05.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
                     <div class="card border-0 mb-4">
                         <a href="../photos/06.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/06.jpg" >
+                            <img class="img-fluid" src="../photos/06.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
                     <div class="card border-0 mb-4">
                         <a href="../photos/07.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/07.jpg" >
+                            <img class="img-fluid" src="../photos/07.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
                     <div class="card border-0 mb-4">
                         <a href="../photos/08.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/08.jpg" >
+                            <img class="img-fluid" src="../photos/08.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
                     <div class="card border-0 mb-4">
                         <a href="../photos/09.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/09.jpg" >
+                            <img class="img-fluid" src="../photos/09.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
                     <div class="card border-0 mb-4">
                         <a href="../photos/10.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/10.jpg" >
+                            <img class="img-fluid" src="../photos/10.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
                     <div class="card border-0 mb-4">
                         <a href="../photos/11.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/11.jpg" >
+                            <img class="img-fluid" src="../photos/11.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
                     <div class="card border-0 mb-4">
                         <a href="../photos/12.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/12.jpg" >
+                            <img class="img-fluid" src="../photos/12.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
                     <div class="card border-0 mb-4">
                         <a href="../photos/13.jpg" class="pb_hover-zoom image-popup">
-                            <img class="img-fluid" src="../photos/13.jpg" >
+                            <img class="img-fluid" src="../photos/13.jpg">
                             <i class="ion-ios-search-strong icon"></i>
                         </a>
                     </div>
@@ -714,7 +763,8 @@
                                 <h3 class="pb_font-18 font-weight-bold">Phone</h3>
                             </div>
                             <div class="col-12">
-                                <span><a href="https://wa.me/34603656564" target="_blank"><i class="fab fa-whatsapp mr-2"></i>+34603656564</a></span>
+                                <span><a href="https://wa.me/34603656564" target="_blank"><i
+                                        class="fab fa-whatsapp mr-2"></i>+34603656564</a></span>
                             </div>
 
                             <div class="col-12 mt-4">
@@ -731,9 +781,14 @@
                                 <ul class="list-inline">
                                     <li class="list-inline-item"
                                     ><a href="https://www.facebook.com/karibunivlc/" target="_blank" class="p-2"><i
-                                            class="fab fa-facebook mr-2"></i><small>karibunivlc</small></a></li>
-                                    <li class="list-inline-item"><a href="https://www.instagram.com/karibunivalencia/" target="_blank" class="p-2"><i
-                                            class="fab fa-instagram mr-2"></i><small>karibunivalencia</small></a></li>
+                                            class="fab fa-facebook mr-2"></i>
+                                        <small>karibunivlc</small>
+                                    </a></li>
+                                    <li class="list-inline-item"><a href="https://www.instagram.com/karibunivalencia/"
+                                                                    target="_blank" class="p-2"><i
+                                            class="fab fa-instagram mr-2"></i>
+                                        <small>karibunivalencia</small>
+                                    </a></li>
                                 </ul>
                             </div>
                         </div>
